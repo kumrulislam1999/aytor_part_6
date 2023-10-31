@@ -2205,6 +2205,85 @@
  /* --============================= Start Shop_cart_Page All CSS Style Here ============================= -- */
 
  /* --======= Start Shop_cart_page Section Here ======= -- */
+
+ /* --======= Start Shop_cart_page Section Here ======= -- */
+ #shop_compare_page {
+     font-size: 16px;
+     line-height: 28px;
+     font-weight: 400;
+     color: var(--p_color);
+     padding: 100px 0;
+ }
+
+ #shop_compare_page .woocommerce-message {
+     padding: 12px 50px;
+     background-color: rgba(201, 199, 199, 0.3);
+ }
+
+ #shop_compare_page .woocommerce-message::after {
+     content: '';
+     position: absolute;
+     left: 30px;
+     top: 50%;
+     width: 10px;
+     height: 10px;
+     border: 1px solid var(--p_color);
+     transform: translateY(-50%);
+ }
+
+ #shop_compare_page .section_content table th {
+     color: var(--text-color);
+ }
+
+ #shop_compare_page .section_content table h6 {
+     padding-top: 15px;
+ }
+
+ #shop_compare_page .section_content .remove_box {
+     padding: 40px 0;
+ }
+
+ #shop_compare_page .section_content table .padding_12 {
+     padding: 12px 0;
+     background-color: var(--white_color);
+ }
+
+ #shop_compare_page .section_content table .bg_white_dark {
+     background-color: #F1F3F4;
+ }
+
+ #shop_compare_page .section_content table .stock_box i {
+     width: 24px;
+     height: 24px;
+     line-height: 24px;
+     font-size: 24px;
+     font-weight: 700;
+     color: #00ff88;
+     padding-right: 5px;
+ }
+
+ #shop_compare_page .section_content table .ratting_box i {
+     margin: 0;
+     color: var(--primary_color_orange_light);
+ }
+
+ #shop_compare_page .section_content table .description_box {
+     padding: 20px 0;
+ }
+
+ #shop_compare_page .section_content table .product_name {
+     padding: 30px 0 27px;
+ }
+
+ #shop_compare_page .section_content .addcart_box .sec_btn_lg {
+     padding: 11px 25px;
+     background-color: var(--primary_color_orange_light);
+     border: none;
+ }
+
+ /* --======= End Shop_cart_page Section Here ======= -- */
+
+
  #shop_cart_page {
      padding: 100px 0;
  }
